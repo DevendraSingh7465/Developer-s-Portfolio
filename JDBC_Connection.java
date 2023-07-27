@@ -5,7 +5,7 @@ public class JDBC_Connection{
             // Creating a Connection
             String url="jdbc:mysql://localhost:3306";
             String username="root";
-            String password="dev@singh7465";
+            String password="SQL_PASSWORD";
             Connection con=DriverManager.getConnection(url,username,password); 
             if(con.isClosed()){
                 System.out.println("Connection failed !");
